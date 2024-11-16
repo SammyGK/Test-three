@@ -4,32 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toky Security Solutions</title>
+    <title>Home - Toky Security Solutions</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-</section>
-
+ 
     <!-- Header Section -->
     <header class="header">
         <h1>Toky Security Solutions</h1>
-                <p class="header-subtitle"> Providing Reliable Security Solutions for Your Safety</p>
+        <p>Safety First</p>
     </header>
-<section id="hero" class="hero">
-    <div class="hero-content">
-        <h1>   Secure Your Future Today</h1>
-        
-        <a href="contact.html" class="cta-button">Contact us</a>
-    </div>
-</section>
-
-<section id="about" class="about">
-    <h2>About Toky Security Solutions</h2>
-    <p>At Toky Security Solutions, we provide innovative security services tailored to meet the needs of residential, commercial, and industrial clients. Our mission is to ensure the safety and security of your assets with advanced technology and experienced personnel.</p>
-    <p>We specialize in a range of security solutions, including CCTV surveillance, dog guarding, access control systems, and more. Our team is dedicated to providing reliable and professional service to give you peace of mind.</p>
-</section>
-
 
     <!-- Navbar -->
     <nav class="navbar">
@@ -37,65 +22,58 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+       <div class= "watermark"/>
+	   <img src= "watermark.jpg"/>
+	   </div>
+    <!-- Home Page Hero Section -->
+    <div id="hero">
+        <h1 class="hero-title" style="color: #0047ab;">Welcome to Toky Security Solutions</h1>
+	   <a href="services.html" class="cta-button">Explore Our Services</a>
+    </div>
 
-    <!-- Home Section -->
-    <section id="home">
-        <div class="container">
-            <h2>Welcome to Toky Security Solutions</h2>
-            <p>We are committed to offering state-of-the-art security solutions tailored to your unique needs. Our dedicated team works relentlessly to ensure your safety, security, and peace of mind.</p>
-            <p>With over 10 years of experience in the industry, we offer reliable services to both residential and commercial clients, providing comprehensive protection against potential threats.</p>
+    <!-- Home Page Unique Information -->
+    <section id="home-info" class="container">
+        <h2>Why Choose Toky Security Solutions?</h2>
+        <p>At Toky Security Solutions, we offer tailored security services to meet the needs of both individuals and businesses. With years of expertise, we provide top-notch protection through our advanced security technologies and highly trained staff. Here’s why our clients choose us:</p>
+        <ul>
+            <li><strong>Trusted Experts:</strong> Our team is made up of highly trained professionals who specialize in security services.</li>
+            <li><strong>Customized Solutions:</strong> We offer security solutions that are tailored to fit your specific needs and budget.</li>
+            <li><strong>24/7 Support:</strong> Our services are available around the clock to ensure your safety at all times.</li>
+            <li><strong>Innovative Technology:</strong> We use the latest in security tech, including surveillance systems and access control tools, to keep you secure.</li>
+        </ul>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="container">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial">
+            <p>"Toky Security Solutions has been a lifesaver for our company. Their mobile patrols give us peace of mind, and their CCTV surveillance is top-notch!"</p>
+            <strong>- Dr.Sammy, CEO</strong>
+        </div>
+        <div class="testimonial">
+            <p>"We’ve trusted Toky Security Solutions with our family’s safety for years. Their trained dogs provide the best protection!"</p>
+            <strong>- Mr Peter, Family Home Owner</strong>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <footer class="footer">
-        <h2>Contact Us</h2>
-        <p>If you have any questions or need assistance with our services, please feel free to contact us.</p>
-        <form action="#" method="post">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-            <button type="submit">Submit</button>
-        </form>
-
-
-    </footer>
-	<!-- Add this footer in the index.html or other pages -->
-<footer class="footer">
-    <p>&copy; 2024 Toky Security Solutions</p>
-    <ul>
-        <li><a href="privacy.html">Privacy Policy</a></li>
-        <li><a href="terms.html">Terms of Service</a></li>
-    </ul>
-    <div class="social-links">
-        <a href="https://facebook.com/Tokysecuritysolutions" target="_blank"><img src="images/facebook-icon.png" alt="Facebook"></a>
-        <a href="https://twitter.com/Tokysecuritysolutions" target="_blank"><img src="images/twitter-icon.png" alt="Twitter"></a>
-        <a href="https://www.instagram.com/Tokysecuritysolutions" target="_blank"><img src="images/instagram-icon.png" alt="instagram"></a>
+    <!-- Contact Information Section -->
+    <div class="contact-info">
+        <em>Contact Us:</em><br>
+        Email: <a href="mailto:tokysecuriysolutions@gmail.com">tokysecuriysolutions@gmail.com</a><br>
+        Phone: +254 725 224 899<br>
+        <!-- Social Media Links -->
+        <div class="social-media">
+            <a href="https://facebook.com/tokysecuritysolutions" target="_blank">Facebook</a>
+            <a href="https://twitter.com/tokysecuritysolutions" target="_blank">Twitter</a>
+        </div>
     </div>
-    <p><a href="contact.html" class="cta-button">Contact Us</a></p>
-</footer>
-<script>
-    // Smooth scrolling for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
-    });
-</script>
-<!-- Scroll to Top Button -->
-<button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">&#8593;</button>
-<form action="contact-form.php" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" placeholder="Your Message" required></textarea>
-    <button type="submit">Send Message</button>
-</form>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Toky Security Solutions</p>
+    </footer>
 
 </body>
 
