@@ -207,3 +207,24 @@ footer ul li {
         font-size: 1rem;
     }
 }
+.top-center {
+    position: fixed;
+    top: 20px; /* Distance from the top */
+    left: 20px; /* Align logo to the top-left */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: wheat;
+    z-index: 10; /* Ensure it stays above other elements */
+}
+
+.top-center .logo-img {
+    width: 80px; /* Smaller logo size */
+    height: auto;
+}
+
+.top-center .logo-name {
+    font-size: 1rem; /* Smaller font size for the name */
+    font-weight: bold;
+    margin-top: 5px; /* Space between logo and name */
+}
