@@ -12,14 +12,14 @@ body {
     margin: 0;
 }
 
-/* Logo and Navigation */
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     color: #fff;
-    background: #007BFF;
+    background: none;
 }
 
 header .logo {
@@ -45,7 +45,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff;
+    color: wheat;
     text-decoration: none;
     font-weight: bold;
 }
@@ -67,7 +67,7 @@ header nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color:wheat;
     position: relative;
     z-index: 1;
 }
