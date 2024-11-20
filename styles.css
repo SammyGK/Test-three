@@ -63,7 +63,7 @@ header nav ul li a {
 .home-page .hero {
     text-align: center;
     background: url('hero-image.jpg.jpg') no-repeat center center/cover;
-    height: 100vh; /* Set hero image to cover the entire screen */
+    height: 70vh; /* Set hero image to cover the entire screen */
     display: flex;
     justify-content: center;
     align-items: center;
